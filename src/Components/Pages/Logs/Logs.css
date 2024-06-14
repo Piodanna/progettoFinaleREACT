@@ -1,0 +1,67 @@
+/* Stile per il form di input */
+.form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* Stile per il pulsante "Crea" */
+  .btn-create {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-create:hover {
+    background-color: #218838;
+  }
+  
+  /* Stile per la tabella */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .table th:first-child,
+  .table td:first-child {
+    border-left: none;
+  }
+  
+  .table th:last-child,
+  .table td:last-child {
+    border-right: none;
+  }
+  
+  /* Stile per il pulsante "Delete" */
+  .btn-delete {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .btn-delete:hover {
+    background-color: #c82333;
+  }
+  

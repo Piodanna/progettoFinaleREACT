@@ -1,0 +1,32 @@
+.tracker-box {
+  background-color: #386489;
+  font-size: 14px;
+  color: #fff;
+  letter-spacing: 0.09em;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.tracker-box div {
+    text-align: left;
+  margin: 5px 0;
+}
+
+.tracker-box .valid{
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.row{
+    margin: auto;
+}
+
+.list-icon{
+    margin-right: 8px;
+}
+
+.list-icon.green{
+    color: #0f0;
+}
